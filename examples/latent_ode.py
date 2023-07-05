@@ -1,12 +1,15 @@
 import os
-import argparse
-import logging
 import time
+import logging
+import argparse
+
 import numpy as np
 import numpy.random as npr
+
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
